@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9B4251D1A61F5EA00760719 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B4251C1A61F5EA00760719 /* RecordedAudio.swift */; };
+		A9FBA55D1A61C38400FD4A85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FBA55C1A61C38400FD4A85 /* AppDelegate.swift */; };
+		A9FBA55F1A61C38400FD4A85 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FBA55E1A61C38400FD4A85 /* RecordSoundsViewController.swift */; };
+		A9FBA5621A61C38400FD4A85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FBA5601A61C38400FD4A85 /* Main.storyboard */; };
+		A9FBA5641A61C38400FD4A85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FBA5631A61C38400FD4A85 /* Images.xcassets */; };
+		A9FBA5671A61C38400FD4A85 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9FBA5651A61C38400FD4A85 /* LaunchScreen.xib */; };
+		A9FBA5731A61C38400FD4A85 /* RecordVoiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FBA5721A61C38400FD4A85 /* RecordVoiceTests.swift */; };
+		A9FBA57D1A61CEEF00FD4A85 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FBA57C1A61CEEF00FD4A85 /* PlaySoundsViewController.swift */; };
+		A9FBA5811A61D3B100FD4A85 /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9FBA5801A61D3B100FD4A85 /* movie_quote.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9FBA56D1A61C38400FD4A85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9FBA54F1A61C38400FD4A85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9FBA5561A61C38400FD4A85;
+			remoteInfo = RecordVoice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9B4251C1A61F5EA00760719 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
+		A9FBA5571A61C38400FD4A85 /* RecordVoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordVoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FBA55B1A61C38400FD4A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9FBA55C1A61C38400FD4A85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9FBA55E1A61C38400FD4A85 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
+		A9FBA5611A61C38400FD4A85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9FBA5631A61C38400FD4A85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9FBA5661A61C38400FD4A85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A9FBA56C1A61C38400FD4A85 /* RecordVoiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordVoiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FBA5711A61C38400FD4A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9FBA5721A61C38400FD4A85 /* RecordVoiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordVoiceTests.swift; sourceTree = "<group>"; };
+		A9FBA57C1A61CEEF00FD4A85 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		A9FBA5801A61D3B100FD4A85 /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = movie_quote.mp3; path = ../movie_quote.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9FBA5541A61C38400FD4A85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FBA5691A61C38400FD4A85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9FBA54E1A61C38400FD4A85 = {
+			isa = PBXGroup;
+			children = (
+				A9FBA5591A61C38400FD4A85 /* RecordVoice */,
+				A9FBA56F1A61C38400FD4A85 /* RecordVoiceTests */,
+				A9FBA5581A61C38400FD4A85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9FBA5581A61C38400FD4A85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9FBA5571A61C38400FD4A85 /* RecordVoice.app */,
+				A9FBA56C1A61C38400FD4A85 /* RecordVoiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9FBA5591A61C38400FD4A85 /* RecordVoice */ = {
+			isa = PBXGroup;
+			children = (
+				A9FBA55C1A61C38400FD4A85 /* AppDelegate.swift */,
+				A9FBA55E1A61C38400FD4A85 /* RecordSoundsViewController.swift */,
+				A9B4251C1A61F5EA00760719 /* RecordedAudio.swift */,
+				A9FBA5601A61C38400FD4A85 /* Main.storyboard */,
+				A9FBA5631A61C38400FD4A85 /* Images.xcassets */,
+				A9FBA5651A61C38400FD4A85 /* LaunchScreen.xib */,
+				A9FBA55A1A61C38400FD4A85 /* Supporting Files */,
+				A9FBA57C1A61CEEF00FD4A85 /* PlaySoundsViewController.swift */,
+			);
+			path = RecordVoice;
+			sourceTree = "<group>";
+		};
+		A9FBA55A1A61C38400FD4A85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9FBA5801A61D3B100FD4A85 /* movie_quote.mp3 */,
+				A9FBA55B1A61C38400FD4A85 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9FBA56F1A61C38400FD4A85 /* RecordVoiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9FBA5721A61C38400FD4A85 /* RecordVoiceTests.swift */,
+				A9FBA5701A61C38400FD4A85 /* Supporting Files */,
+			);
+			path = RecordVoiceTests;
+			sourceTree = "<group>";
+		};
+		A9FBA5701A61C38400FD4A85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9FBA5711A61C38400FD4A85 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9FBA5561A61C38400FD4A85 /* RecordVoice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9FBA5761A61C38400FD4A85 /* Build configuration list for PBXNativeTarget "RecordVoice" */;
+			buildPhases = (
+				A9FBA5531A61C38400FD4A85 /* Sources */,
+				A9FBA5541A61C38400FD4A85 /* Frameworks */,
+				A9FBA5551A61C38400FD4A85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecordVoice;
+			productName = RecordVoice;
+			productReference = A9FBA5571A61C38400FD4A85 /* RecordVoice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9FBA56B1A61C38400FD4A85 /* RecordVoiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9FBA5791A61C38400FD4A85 /* Build configuration list for PBXNativeTarget "RecordVoiceTests" */;
+			buildPhases = (
+				A9FBA5681A61C38400FD4A85 /* Sources */,
+				A9FBA5691A61C38400FD4A85 /* Frameworks */,
+				A9FBA56A1A61C38400FD4A85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9FBA56E1A61C38400FD4A85 /* PBXTargetDependency */,
+			);
+			name = RecordVoiceTests;
+			productName = RecordVoiceTests;
+			productReference = A9FBA56C1A61C38400FD4A85 /* RecordVoiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9FBA54F1A61C38400FD4A85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = nliapis;
+				TargetAttributes = {
+					A9FBA5561A61C38400FD4A85 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A9FBA56B1A61C38400FD4A85 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A9FBA5561A61C38400FD4A85;
+					};
+				};
+			};
+			buildConfigurationList = A9FBA5521A61C38400FD4A85 /* Build configuration list for PBXProject "RecordVoice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9FBA54E1A61C38400FD4A85;
+			productRefGroup = A9FBA5581A61C38400FD4A85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9FBA5561A61C38400FD4A85 /* RecordVoice */,
+				A9FBA56B1A61C38400FD4A85 /* RecordVoiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9FBA5551A61C38400FD4A85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FBA5621A61C38400FD4A85 /* Main.storyboard in Resources */,
+				A9FBA5671A61C38400FD4A85 /* LaunchScreen.xib in Resources */,
+				A9FBA5811A61D3B100FD4A85 /* movie_quote.mp3 in Resources */,
+				A9FBA5641A61C38400FD4A85 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FBA56A1A61C38400FD4A85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9FBA5531A61C38400FD4A85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B4251D1A61F5EA00760719 /* RecordedAudio.swift in Sources */,
+				A9FBA55F1A61C38400FD4A85 /* RecordSoundsViewController.swift in Sources */,
+				A9FBA57D1A61CEEF00FD4A85 /* PlaySoundsViewController.swift in Sources */,
+				A9FBA55D1A61C38400FD4A85 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FBA5681A61C38400FD4A85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FBA5731A61C38400FD4A85 /* RecordVoiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9FBA56E1A61C38400FD4A85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9FBA5561A61C38400FD4A85 /* RecordVoice */;
+			targetProxy = A9FBA56D1A61C38400FD4A85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9FBA5601A61C38400FD4A85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9FBA5611A61C38400FD4A85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9FBA5651A61C38400FD4A85 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9FBA5661A61C38400FD4A85 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9FBA5741A61C38400FD4A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9FBA5751A61C38400FD4A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9FBA5771A61C38400FD4A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RecordVoice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9FBA5781A61C38400FD4A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RecordVoice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9FBA57A1A61C38400FD4A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RecordVoiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecordVoice.app/RecordVoice";
+			};
+			name = Debug;
+		};
+		A9FBA57B1A61C38400FD4A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RecordVoiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecordVoice.app/RecordVoice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9FBA5521A61C38400FD4A85 /* Build configuration list for PBXProject "RecordVoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FBA5741A61C38400FD4A85 /* Debug */,
+				A9FBA5751A61C38400FD4A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9FBA5761A61C38400FD4A85 /* Build configuration list for PBXNativeTarget "RecordVoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FBA5771A61C38400FD4A85 /* Debug */,
+				A9FBA5781A61C38400FD4A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9FBA5791A61C38400FD4A85 /* Build configuration list for PBXNativeTarget "RecordVoiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FBA57A1A61C38400FD4A85 /* Debug */,
+				A9FBA57B1A61C38400FD4A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9FBA54F1A61C38400FD4A85 /* Project object */;
+}
